@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Calendar
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:UTC
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:A New Event
+UID:@Default
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART;TZID=UTC:20230305T073000
+DTEND;TZID=UTC:20230306T084000
+DTSTAMP:20230306T153300
+LOCATION:4RGV+WQG, Bhestan, Surat, Gujarat
+DESCRIPTION:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+END:VEVENT
+END:VCALENDAR

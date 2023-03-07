@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Calendar
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:UTC
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Creating a Culture of Health
+UID:@Default
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART;TZID=UTC:20230427T153000
+DTEND;TZID=UTC:20230427T173000
+DTSTAMP:20230306T155100
+LOCATION:LUXBAR
+DESCRIPTION:<!-- wp:paragraph -->
+<p>Please join the Downtown Chicago Association of Health Underwriters and our Platinum sponsor, UnitedHealthcare, for an informative presentation on behavioral health and the social determinants of healthcare.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Guest presenters :</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tamara Huf, Director of Client Management at Optum<br />Tracey Emanuel, Member Experience Leader at Health Action Council</p>
+<!-- /wp:paragraph -->
+END:VEVENT
+END:VCALENDAR

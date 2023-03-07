@@ -1,3 +1,9 @@
+/* Universal CSS */
+* {
+  background-color: #010101;
+  color: #ffffff;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,34 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.bgimage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 870px;
+  background-position: center;
+}
+
+.space_station {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.navbar-toggler,
+span.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+  text-align: right;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,7 +66,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .card-img-top {
+      height: 50vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bgimage {
+    background-position: 65%;
   }
 }

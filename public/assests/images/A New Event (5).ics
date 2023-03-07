@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Calendar
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:UTC
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:A New Event
+UID:@Default
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART;TZID=UTC:20230304T073000
+DTEND;TZID=UTC:20230304T084000
+DTSTAMP:20230306T135500
+LOCATION:4RGV+WQG, Bhestan, Surat, Gujarat
+DESCRIPTION:Id delectus sociosqu bibendum blandit eligendi risus dignissim. Vestibulum, dis aliquid pellentesque sunt incidunt mollis. Ligula? Donec assumenda, voluptas nam? Ab aptent suscipit sit fuga habitasse sociosqu nunc, repudiandae habitant? Tristique ullamco mus exercitationem ab natus potenti ducimus per, egestas praesentium cursus malesuada, tempore quidem? Pede laborum elementum, aperiam metus numquam sequi parturient suscipit. Ornare, laboriosam? Nam numquam sunt irure architecto imperdiet alias, molestias. Exercitation, dolorum! Proident facilisis egestas ad! Enim hac mus alias nisi?
+END:VEVENT
+END:VCALENDAR
